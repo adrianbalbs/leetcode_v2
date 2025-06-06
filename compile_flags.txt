@@ -1,2 +1,6 @@
+-Wall
+-Wlogical
 -O2
 -std=c++20
+-fsanitize=address
+-fsanitize=undefined
