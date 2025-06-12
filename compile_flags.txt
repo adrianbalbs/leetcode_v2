@@ -1,7 +1,6 @@
 -Wall
 -Wshadow
 -Wfloat-equal
--Wlogical-op
 -O2
 -std=c++20
 -fsanitize=address
