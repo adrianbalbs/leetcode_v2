@@ -4,6 +4,6 @@
 using namespace std;
 
 class Solution {
-public:
-  vector<int> findWordsContaining(vector<string> &words, char x) {}
+  public:
+    vector<int> findWordsContaining(vector<string> &words, char x) {}
 };
