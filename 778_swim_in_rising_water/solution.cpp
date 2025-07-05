@@ -11,7 +11,7 @@ class Solution {
         // dijkstra shorted path from (0, 0) -> (n - 1, n - 1)
         // for distance calc int cost = curr_t >= time[row][col] ?
         // time[row][col] : 0
-        int n = grid.size();
+        const int n = grid.size();
 
         vector<vector<int>> distances(n, vector<int>(n, INT_MAX));
         distances[0][0] = grid[0][0];
@@ -19,6 +19,7 @@ class Solution {
         priority_queue<tuple<int, int, int>, vector<tuple<int, int, int>>,
                        greater<>>
             pq;
+
         pq.push({distances[0][0], 0, 0});
 
         constexpr array<pair<int, int>, 4> directions{
